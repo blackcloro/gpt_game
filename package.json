@@ -1,0 +1,27 @@
+{
+   "name": "fakie_coffin",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "directories": {
+      "test": "tests"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack-dev-server --host localhost --port 8080 --hot true --static ./public --open --history-api-fallback"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.18.2",
+      "phaser": "^3.70.0",
+      "webpack-dev-server": "^4.15.1"
+   },
+   "devDependencies": {
+      "@babel/core": "^7.23.7",
+      "@babel/preset-env": "^7.23.7",
+      "babel-loader": "^9.1.3",
+      "webpack-cli": "^5.1.4"
+   }
+}
